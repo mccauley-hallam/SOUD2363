@@ -1,10 +1,14 @@
 <?php
     require_once("../PHP/details.php");
 
+    // Query & execute
     $sql = "SELECT ID, Title, Description, Status FROM Goals WHERE Username = '$login_session'";
     $result = $conn->query($sql);
+
+    // If results are found in the database
     if ($result->num_rows > 0)
     {
+        // Output a table, format and display data
         echo "<table class='table'>";
         echo "<table class='table'>" . "<thead><tr>
         <th scope='col'>ID</th>
@@ -18,9 +22,11 @@
         }
         echo "</table>";
     }
+    // No results found
     else
     {
         echo "0 results";
     }
+    // Close database connection
     $conn->close();
 ?>

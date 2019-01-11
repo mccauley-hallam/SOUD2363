@@ -45,6 +45,7 @@
             </div>
         </nav>
 
+        <!-- Side Navigation Bar -->
         <div id="mySidebar" class="sidebar">
             <a><img src="../Images/defaultimg.png" class="img-edit" style="padding-right:10px"><?php echo("$login_session"); ?></a>
             <ul class="nav nav-sidebar" style="margin-top:20px">
@@ -56,10 +57,11 @@
             </ul>
         </div>
 
+        <!-- Content -->
         <div id="main">
             <button class="openbtn hover" onclick="openNav()">&#8594;</button>
             <h1 class="page-header">About Us</h1>
-            
+
         </div>
 
         <script>

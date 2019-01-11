@@ -1,4 +1,5 @@
 <?php
+    // Database details
     define('HOST','localhost');
     define('USER','root');
     define('PASS','');
