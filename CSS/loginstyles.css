@@ -1,0 +1,7 @@
+.login-page{width:360px;padding:15% 0 0;margin:auto}
+.form{position:relative;z-index:1;background:#262626;max-width:360px;margin:0 auto 100px;padding:45px;text-align:center;box-shadow:0 0 20px 0 rgba(0,0,0,.2),0 5px 5px 0 rgba(0,0,0,.24)}
+.form button,.form input{width:100%;border:0;padding:15px;font-size:14px;color:#fff}
+.form input{background:#444444;margin:0 0 15px;color:#fff}
+.form button{background:#0046af;color:#fff;cursor:pointer}
+.form button:active,.form button:focus,.form button:hover{background:#004ec4}
+.form .message{margin:15px 0 0;color:#7c7c7c;font-size:12px}
